@@ -116,15 +116,15 @@ public class endberichte {
 		    							//in Datei schreiben
 		    							schreibPuffer.write(zeile);
 		    							schreibPuffer.newLine();
-		    						}//if dateiendung pdf
-		    					}//ifdatumsprüfung
-		    				}//for filesindir
-					}//if ordner
-				}//for dirinordner
-			}//if ordner
-		}//try csv
+		    						}
+		    					}
+		    				}
+					}
+				}
+			}
+		}
 		catch(IOException ex) {
 			System.err.println("CSV Writer fehlgeschlagen");
 		}		
-	}//main
-}//class
+	}
+}
